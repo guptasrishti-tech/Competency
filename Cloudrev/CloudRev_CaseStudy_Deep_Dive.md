@@ -67,6 +67,17 @@ IoT Core, Kinesis Data Streams, Lambda, Amazon Timestream, S3, Glacier Instant R
 CHALLENGE:
 Unpredictable GPU hardware costs, no cost-per-scan visibility. Slow R&D cycles - provisioning new hardware took weeks. Immense HIPAA compliance overhead on physical infrastructure. Difficulty scaling inference for new hospital clients.
 
+Expected Outcomes 
+Cost Reduction: ~30% reduction in monthly AWS spend.
+
+Tagging Compliance: 95%+ across 5 mandatory cost-allocation tags.
+
+Reserved Coverage: 85%+ Savings Plans coverage for compute.
+
+Forecast Accuracy: Within ±5% variance.
+
+Unit Economics: Establish a "Cost per 1 Million Transactions" baseline
+
 SOLUTION:
 Secure multi-account AWS Organization for HIPAA workloads. Compute Savings Plans for baseline inference fleet. SageMaker Spot Training for R&D cost reduction. S3 Intelligent-Tiering for DICOM image archives. KMS encryption, IAM, Secrets Manager for compliance. CUR integrated with Aquila Cloud for cost-per-scan KPI.
 
@@ -120,7 +131,16 @@ GOVERNANCE:
 
 Their monthly AWS spend was at a baseline of $105,000. The combination of these challenges meant CloudRev could not calculate their true cost-per-transaction."
 
----
+Expected Outcomes 
+Cost Reduction: ~30% reduction in monthly AWS spend.
+
+Tagging Compliance: 95%+ across 5 mandatory cost-allocation tags.
+
+Reserved Coverage: 85%+ Savings Plans coverage for compute.
+
+Forecast Accuracy: Within ±5% variance.
+
+Unit Economics: Establish a "Cost per 1 Million Transactions" baseline.
 
 ### 3. SOLUTION - FINOPS FRAMEWORK (INFORM, OPTIMIZE, OPERATE)
 
